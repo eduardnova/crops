@@ -14,5 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+   return "Hola";
 });
+/*
+ admin routes
+*/
+
+
+/*
+ clientes routes
+*/
+
+
+/*
+ proveedor routes
+*/
+Route::get('/proveedor', function(){return "Hola";});
+Route::get('/proveedor/productos', function(){return "";});
+Route::get('/proveedor/crearproductos', function(){return "";});
+Route::get('/proveedor/borrarproductos', function(){return "";});
+Route::get('/proveedor/actualizarproductos', function(){return "";});
+Route::get('/proveedor/ordenes', function(){return "";});
+Route::get('/proveedor/ventas', function(){return "";});
+
+/*
+ transportitas routes
+*/
